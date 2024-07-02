@@ -6,7 +6,9 @@ const initialState = {
     movie:[],
     genresLoaded:false,
     genres:[],
+
     'bbbbbb',
+
 };
 
 export  const getGenres = createAsyncThunk("netflix/genres" , async()=>{
